@@ -6,6 +6,9 @@ int main() {
     int n;
     cin >> n;
 
+    if(n == 0 )
+     cout << "complement is: " << 1;
+
     int m = n;
     int andWithThis = 0;
     while(m != 0) {
